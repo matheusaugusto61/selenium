@@ -8,14 +8,14 @@ Neste projeto, utilizamos o WebDriver. WebDriver conduz um navegador de forma na
 * WebDriver é uma API compacta orientada a objetos.
 * Ele dirige o navegador de forma eficaz.
 
-## 01 - Clonando o projeto:
+## Clonando o projeto:
 
 Requisitos:
 * Git - https://git-scm.com/downloads
 * IDE (Recomendado: Netbeans) - https://www.oracle.com/br/tools/technologies/netbeans-ide.html 
 * JDK (Java Development Kit) - https://www.oracle.com/java/technologies/downloads/
 
-### 01a - Criando ambiente local:
+### Criando ambiente local:
 Inicie o terminal do gitbash ou o terminal de sua preferência. Navegue até a pasta que você deseja que os arquivos do projeto sejam armazenados. Execute o seguinte comando para criar um repositório git:
 ```
 git init
