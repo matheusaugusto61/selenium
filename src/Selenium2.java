@@ -6,11 +6,12 @@ import java.io.File;
 
 public class Selenium2 {
     public static void main(String[] args) {
-        abrirChrome();
-        //criando objeto
+        //Objetos:
         CasoTeste01 ct01 = new CasoTeste01();
-        //utilizando metodo que se encontra dentro do objeto.
+        CasoTeste02 ct02 = new CasoTeste02();
+        //Executando os métodos:
         ct01.teste();
+        ct02.generateApiUrl();
     }
     
    
