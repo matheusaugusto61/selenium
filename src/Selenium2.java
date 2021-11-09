@@ -9,9 +9,11 @@ public class Selenium2 {
         //Objetos:
         CasoTeste01 ct01 = new CasoTeste01();
         CasoTeste02 ct02 = new CasoTeste02();
+        CasoTeste05 ct05 = new CasoTeste05();
         //Executando os métodos:
-        ct01.teste();
-        ct02.generateApiUrl();
+        //ct01.teste();
+        //ct02.generateApiUrl();
+        ct05.testeDeLogin();
     }
     
    
