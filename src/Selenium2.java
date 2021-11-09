@@ -7,8 +7,12 @@ import java.io.File;
 public class Selenium2 {
     public static void main(String[] args) {
         abrirChrome();
+        //criando objeto
+        CasoTeste01 ct01 = new CasoTeste01();
+        //utilizando metodo que se encontra dentro do objeto.
+        ct01.teste();
     }
-
+    
     private static void abrirChrome() {
         File file = new File("C:\\Users\\Admin\\Downloads\\chromedriver_win32\\chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
