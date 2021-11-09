@@ -13,14 +13,6 @@ public class Selenium2 {
         ct01.teste();
     }
     
-    private static void abrirChrome() {
-        File file = new File("C:\\Users\\Admin\\Downloads\\chromedriver_win32\\chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://opentdb.com/");
-        String i = driver.getCurrentUrl();
-        System.out.println(i);
-        driver.close();
-    }
+   
 
 }
