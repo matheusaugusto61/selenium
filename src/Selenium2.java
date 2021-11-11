@@ -11,9 +11,9 @@ public class Selenium2 {
         CasoTeste02 ct02 = new CasoTeste02();
         CasoTeste05 ct05 = new CasoTeste05();
         //Executando os métodos:
-        //ct01.teste();
-        //ct02.generateApiUrl();
+        ct02.generateApiUrl();
         ct05.testeDeLogin();
+        ct01.pesquisaQuestion();
     }
     
    

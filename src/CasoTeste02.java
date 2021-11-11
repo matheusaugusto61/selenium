@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CasoTeste02 {
         
     private String url = "https://opentdb.com/api_config.php";
-    private String caminho = "C:\\Users\\Admin\\Downloads\\chromedriver_win32\\chromedriver.exe";
+    private String caminho = "E:\\Downloads\\chromedriver.exe";
 
     //O Método generateApiUrl verifica se a URL da API está sendo gerada, com o parametro number default.
     public void generateApiUrl() {
