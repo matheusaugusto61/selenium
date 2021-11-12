@@ -36,6 +36,7 @@ Pronto! A partir deste momento todos os arquivos estarão na pasta que você def
 * AbrirChrome: 
 Dentro da classe AbrirChrome temos o métodos AbrirChrome(), que espera receber dois parametros: url e caminho, ambos do tipo string. Este método será utilizado em todos os outros métodos.
 * CasoTeste01:
+Teste responsável por fazer uma busca no banco de questões e verifica se aquela pesquisa retornou algum resultado avisando via console. A lógica consiste em selecionar o id question que corresponde ao campo onde o usuário digita o que quer buscar, acionar o método submit para fazer a busca e depois tentar achar o elemento do tipo class alert-danger, caso o mesmo apareça, não há resultados na busca, se ele não aparecer é porque a pesquisa tem pelo menos 1 resultado encontrado.
 * CasoTeste02:
 Teste responsável por verificar se a URL da API está sendo gerada. A lógica deste teste consiste em selecionar o id trivia_amount, que pertence ao input number, recolher o value e depois disparar o evento submit. Disparando o evento submit, se tudo der certo a classe alert-success será renderizada, sendo o ponto chave do nosso teste. Se a classe alert-sucess for gerada iremos imprimir a frase de sucesso com o número default do input number. Caso contrario um erro será impresso, avisando que não foi possível gerar a URL da api. 
 Autor: Israel Gomes
