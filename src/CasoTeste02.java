@@ -7,13 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //Caso de teste. Responsável: Israel Gomes
 public class CasoTeste02 {
         
-    private String url = "https://opentdb.com/api_config.php";
-    private String caminho = "E:\\Downloads\\chromedriver.exe";
-
     //O Método generateApiUrl verifica se a URL da API está sendo gerada, com o parametro number default.
-    public void generateApiUrl() {
-        AbrirChrome abrir = new AbrirChrome();
-        WebDriver driver = abrir.abrirChrome(url, caminho);
+    public void generateApiUrl(WebDriver driver) {
+        
         WebElement element = driver.findElement(By.id("trivia_amount"));
         String valor = element.getAttribute("value");
         element.submit();
