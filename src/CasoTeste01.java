@@ -6,12 +6,9 @@ import org.openqa.selenium.WebElement;
 //Caso de teste responsável: Matheus Augusto
 public class CasoTeste01 {
 
-    private String url = "https://opentdb.com/browse.php";
-    private String caminho = "E:\\Downloads\\chromedriver.exe";
 
-    public void pesquisaQuestion() {
-        AbrirChrome abrir = new AbrirChrome();
-        WebDriver driver = abrir.abrirChrome(url, caminho);
+
+    public void pesquisaQuestion(WebDriver driver) {
         WebElement element = driver.findElement(By.id("query"));
         element.sendKeys("game");
         element.submit();
