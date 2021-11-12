@@ -37,6 +37,7 @@ Pronto! A partir deste momento todos os arquivos estarão na pasta que você def
 Dentro da classe AbrirChrome temos o métodos AbrirChrome(), que espera receber dois parametros: url e caminho, ambos do tipo string. Este método será utilizado em todos os outros métodos.
 * CasoTeste01:
 Teste responsável por fazer uma busca no banco de questões e verifica se aquela pesquisa retornou algum resultado avisando via console. A lógica consiste em selecionar o id question que corresponde ao campo onde o usuário digita o que quer buscar, acionar o método submit para fazer a busca e depois tentar achar o elemento do tipo class alert-danger, caso o mesmo apareça, não há resultados na busca, se ele não aparecer é porque a pesquisa tem pelo menos 1 resultado encontrado.
+Autor: Matheus Augusto
 * CasoTeste02:
 Teste responsável por verificar se a URL da API está sendo gerada. A lógica deste teste consiste em selecionar o id trivia_amount, que pertence ao input number, recolher o value e depois disparar o evento submit. Disparando o evento submit, se tudo der certo a classe alert-success será renderizada, sendo o ponto chave do nosso teste. Se a classe alert-sucess for gerada iremos imprimir a frase de sucesso com o número default do input number. Caso contrario um erro será impresso, avisando que não foi possível gerar a URL da api. 
 Autor: Israel Gomes
@@ -44,7 +45,8 @@ Autor: Israel Gomes
 Teste responsável por verificar no sistema se o usuário com as informações solicitadas, já foi cadastrado no sistema e retornará um alerta, ou se será cadastrado normalmente, e retornará uma mensagem de sucesso.
 Autor: Leonardo Marinho
 * CasoTeste04:
-* CasoTeste05:
+* CasoTeste05: Teste responsável por verificar o funcionamento do login com um usuário já cadastrado anteriormente. A Lógica consiste em selecionar os inputs e injetar o username e password para a tentativa de login. Se tudo der certo o sistema retornará "Login realizado!!".
+Autor: Felipe Dutra
 * Bibliotecas: Todos os arquivos necessários para o funcionamento do Selenium, que também podem ser encontrados no link: https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.0.0/selenium-java-4.0.0.zip 
 
 ### Importante
