@@ -7,11 +7,9 @@ import org.openqa.selenium.WebElement;
 //Caso de teste responsável: Felipe Dutra
 public class CasoTeste05 {
 
-    public void testeDeLogin() {
-        String url = "https://opentdb.com/login.php";
-        String caminho = "E:\\Downloads\\chromedriver.exe";
-        AbrirChrome abrir = new AbrirChrome();
-        WebDriver driver = abrir.abrirChrome(url, caminho);
+    public void testeDeLogin(WebDriver driver) {
+        
+
         WebElement usuario = driver.findElement(By.id("username"));
         usuario.sendKeys("FelipeDtra");
         WebElement senha = driver.findElement(By.id("password"));
