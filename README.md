@@ -40,6 +40,8 @@ Dentro da classe AbrirChrome temos o métodos AbrirChrome(), que espera receber 
 Teste responsável por verificar se a URL da API está sendo gerada. A lógica deste teste consiste em selecionar o id trivia_amount, que pertence ao input number, recolher o value e depois disparar o evento submit. Disparando o evento submit, se tudo der certo a classe alert-success será renderizada, sendo o ponto chave do nosso teste. Se a classe alert-sucess for gerada iremos imprimir a frase de sucesso com o número default do input number. Caso contrario um erro será impresso, avisando que não foi possível gerar a URL da api. 
 Autor: Israel Gomes
 * CasoTeste03:
+Teste responsável por verificar no sistema se o usuário com as informações solicitadas, já foi cadastrado no sistema e retornará um alerta, ou se será cadastrado normalmente, e retornará uma mensagem de sucesso.
+Autor: Leonardo Marinho
 * CasoTeste04:
 * CasoTeste05:
 * Bibliotecas: Todos os arquivos necessários para o funcionamento do Selenium, que também podem ser encontrados no link: https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.0.0/selenium-java-4.0.0.zip 
